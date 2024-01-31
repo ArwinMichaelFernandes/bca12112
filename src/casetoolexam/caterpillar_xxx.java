@@ -8,11 +8,12 @@ public class caterpillar_xxx {
 		this.move=move;
 		this.cabbage=cabbage;
 	}
+	int get_moves() {
+		return move;
+	}
 	
 	public static void main(String[] args) {
-		
-		caterpillar_xxx c = new caterpillar_xxx(9,7);
-		
+	
 	}
 	
 }
